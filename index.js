@@ -86,7 +86,7 @@ module.exports = {
         'no-case-declarations': 2,
         'no-div-regex': 0,
         'no-else-return': 2,
-        'no-empty-function': 2,
+        'no-empty-function': 0,
         'no-empty-pattern': 2,
         'no-eq-null': 2,
         'no-eval': 2,
@@ -209,7 +209,7 @@ module.exports = {
             }
         ],
         'max-depth': 2,
-        'max-len': [ 'error', 80 ],
+        'max-len': [ 'error', 160 ],
         'max-lines': 0,
         'max-nested-callbacks': 2,
         'max-params': 2,
@@ -237,7 +237,7 @@ module.exports = {
         'no-spaced-func': 2,
         'no-tabs': 2,
         'no-ternary': 0,
-        'no-trailing-spaces': 2,
+        'no-trailing-spaces': 0,
         'no-underscore-dangle': 0,
         'no-unneeded-ternary': 2,
         'no-whitespace-before-property': 2,
@@ -252,7 +252,7 @@ module.exports = {
         'quote-props': 0,
         'quotes': [ 'error', 'single' ],
         'require-jsdoc': [
-            'error',
+            'off',
             {
                 'require': {
                     'ClassDeclaration': true,
